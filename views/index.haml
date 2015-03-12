@@ -8,14 +8,12 @@
   %body
     %header
       %h1="Python for Rubyists"
-      %nav
-        %ul
-          %li= "Switch"
 
     %section
       %div
-      - translations.each do |method_name|
-        %p= method_name
+        %ul
+        - translations.keys.each do |method_name|
+          %li= method_name
 
 
       %footer

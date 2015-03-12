@@ -1,3 +1,4 @@
-id ruby python
 1 split  split
-2 is_a? isinstance
+2 is_a? isinstance()
+3 .map{} .map()
+4 to_s str()
