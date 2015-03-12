@@ -1,0 +1,22 @@
+!!! 5
+%html
+  %head
+    %title= "Ruby-Python Translation"
+    %meta{ :content => "Emily Bookstein", :name => "author" }
+    %link{ :href => "/css/bootstrap.css", :type => "text/css", :media => "screen", :rel => "stylesheet"}
+    %link{ :href => "/css/cerulean.css", :type => "text/css", :media => "screen", :rel => "stylesheet" }
+  %body
+    %header
+      %h1="Python for Rubyists"
+      %nav
+        %ul
+          %li= "Switch"
+
+    %section
+      %div
+      - translations.each do |method_name|
+        %p= method_name
+
+
+      %footer
+        %p This is a Ruby + Sinatra project

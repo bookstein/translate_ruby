@@ -1,0 +1,3 @@
+id ruby python
+1 split  split
+2 is_a? isinstance
