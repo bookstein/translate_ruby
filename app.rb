@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'sinatra'
 require 'haml'
+require 'active_record'
 
 set :root, File.dirname(__FILE__) # set root as parent directory of current file
 
